@@ -1,0 +1,11 @@
+*** Deploying with REST ***
+Job ID | 0AfB000000ZWnSHKA1
+=== Deployed Source
+FULL NAME                             TYPE                      PROJECT PATH
+────────────────────────────────────  ────────────────────────  ───────────────────────────────────────────────────────────────
+sunbeltHome/sunbeltHome.css           LightningComponentBundle  force-app/main/default/lwc/sunbeltHome/sunbeltHome.css
+sunbeltHome/sunbeltHome.html          LightningComponentBundle  force-app/main/default/lwc/sunbeltHome/sunbeltHome.html
+sunbeltHome/sunbeltHome.js            LightningComponentBundle  force-app/main/default/lwc/sunbeltHome/sunbeltHome.js
+sunbeltHome/sunbeltHome.js            LightningComponentBundle  force-app/main/default/lwc/sunbeltHome/sunbeltHome.js-meta.xml
+sunbeltHome/sunbeltHome_backup.html   LightningComponentBundle  force-app/main/default/lwc/sunbeltHome/sunbeltHome_backup.html
+sunbeltHome/sunbeltHome_backup1.html  LightningComponentBundle  force-app/main/default/lwc/sunbeltHome/sunbeltHome_backup1.html
