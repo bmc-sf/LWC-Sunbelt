@@ -1,19 +1,48 @@
 <template>
-    <lightning-card title="Worksheet" icon-name="custom:custom19">
-        <div class="slds-m-around_medium">
-            <img src={customerInfoImage}>
-            <p></p>
-            <img src={customerInfoImage}>
-            <br>
-            <img src ={rentalMethodImage}>
-            <br>
-            <img src ={equipmentImage}>
-            <br>
-            <img src ={fullfillmentBranchImage}>
-            <br>
-            <img src ={rentalInstructionsImage}>
+    <lightning-card title="Worksheet" class="canvas" icon-name="custom:custom19">
+
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-tile
+                class="actionTile"
+                label="Customer Information"
+                href="/flow/Hello_From_Flow?retURL=https://velocity-force-5945-dev-ed.lightning.force.com/lightning/n/Sunbelt">
+                <p class="slds-truncate" title="adsf">aaa</p>
+            </lightning-tile>
+        </div>
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-tile
+                class="actionTile"
+                label="Rental Method"
+                href="/path/to/somewhere">
+                <p class="slds-truncate" title="adsf">bbb</p>
+            </lightning-tile>
+        </div>
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-tile
+                class="actionTile"
+                label="Equipment"
+                href="/path/to/somewhere">
+                <p class="slds-truncate" title="asdf">ccc</p>
+            </lightning-tile>
+        </div>
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-tile
+                class="actionTile"
+                label="Fulfillment Branch"
+                href="/path/to/somewhere">
+                <p class="slds-truncate" title="asdf">ccc</p>
+            </lightning-tile>
+        </div>
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-tile
+                class="actionTile"
+                label="Rental Instructions"
+                href="/path/to/somewhere">
+                <p class="slds-truncate" title="asdf">ccc</p>
+            </lightning-tile>
         </div>
 
-        <h2>Copyright Sunbelt Rentals 2021</h2>
+            <h2>Copyright Sunbelt Rentals 2021</h2>
+
     </lightning-card>
 </template>
