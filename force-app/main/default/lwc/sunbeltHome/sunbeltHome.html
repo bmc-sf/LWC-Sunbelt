@@ -1,5 +1,5 @@
 <template>
-	<lightning-card title="Worksheet" class="canvas" icon-name="custom:custom19">
+	<lightning-card class="canvas" title="Worksheet">
 
 		<div class="slds-p-around_medium lgc-bg">
 			<lightning-tile class="actionTile" label="Customer Information" type="media"
@@ -32,6 +32,18 @@
 				<p class="slds-truncate" title="asdf">Add Rental Instructions (optional)</p>
 			</lightning-tile>
 		</div>
+		<div class="slds-p-around_medium lgc-bg">
+			<lightning-tile class="footerTile" label="Estimated Total:  $3,427">
+				<p class="slds-truncate" title="Total"></p>
+				<br>
+				<div class="slds-align_absolute-center" style="height:5rem">
+					<lightning-button variant="success" label="Submit" title="Primary action" onclick={handleClick}
+						class="slds-m-left_x-small"></lightning-button>
+				</div>
+			</lightning-tile>
+		</div>
+
+
 
 		<h2>Copyright Sunbelt Rentals 2021</h2>
 

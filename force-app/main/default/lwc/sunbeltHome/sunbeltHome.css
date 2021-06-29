@@ -1,24 +1,26 @@
 h1 {
-    color: rgb(0, 5, 0);
+    color: rgb(5, 109, 57);
 }
 p {
     font-family: 'Salesforce Sans', Arial, sans-serif;
     color: rgb(62, 62, 60);
 }
-.app {
-    background-color: #8f8f8d;
+.canvas {
+    background-color: #55554f;
     height: 100vh;
     overflow: scroll;
 }
-
-.canvas {
-    border: 1px solid #003d99;
-    background-color: #3d3e41;
-    transition: border 0.5s, background-color 0.5s;
- }
- 
+.app {
+    background-color: #064d2c;
+    height: 100vh;
+    overflow: scroll;
+}
 .actionTile {
-    border: 1px solid #003d99;
+    border: 0px solid #003d99;
     background-color: #f5f6f8;
     transition: border 0.5s, background-color 0.5s;
+ }
+ .footerTile {
+    border: 0px solid #ffffff;
+    background-color: #ffffff;
  }
