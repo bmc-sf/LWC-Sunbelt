@@ -15,5 +15,6 @@ export default class SunbeltHome extends LightningElement {
 
     handleClick() {
         //add handler for clicking on action tile
+        //
     }
 }
